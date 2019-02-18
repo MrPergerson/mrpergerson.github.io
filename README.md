@@ -1,5 +1,4 @@
-# LlamaTemplar
-## Cole Pergerson
+# Cole Pergerson
 
 ### I am an artist. This is my portfolio site.
 
