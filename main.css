@@ -8,11 +8,13 @@ header {
   padding: 10vw 2em;
   text-align: center;
 }
-h1{
+
+h1 {
   color: white;
   text-shadow: 2px 2px 4px #000000;
   font-size: 60px;
 }
+
 h2,
 strong {
   color: #333;
@@ -27,7 +29,4 @@ body {
   color: #555;
 }
 
-.video1
-{
-
-}
+.video1 {}
