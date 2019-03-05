@@ -1,9 +1,5 @@
 header {
-  background-color: #263d36;
   background-image: url("images/headerImage.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   line-height: 1.2;
   margin: 0;
   padding: 10vw 2em;
@@ -12,15 +8,16 @@ header {
 
 footer
 {
-  background-color: silver;
-  margin-top: 20px;
+  background-color: #F6F5F5;
+\\
 }
 
 h1 {
   color: white;
   text-shadow: 2px 2px 4px #000000;
-  font-size: 60px;
-  margin-left: 10px;
+  font-size: 100px;
+  margin: none;
+  line-height: 0;
 }
 
 h2,
@@ -43,14 +40,13 @@ body {
   margin: 0;
   font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
-  color: #555;
+  color:  #606060;
 }
 
 .box
 {
   margin-left: 100px;
   margin-right: 100px;
-  margin-top: 50px;
   margin-bottom: 50px;
   padding: 10px 10px 10px 10px;
   background-color: #F6F5F5;
@@ -59,7 +55,6 @@ body {
 .navbar{
   list-style: none;
   text-align: center;
-  text-shadow: 10px;
   padding: 20px 0 20px 0;
 }
 
@@ -72,11 +67,12 @@ body {
 .navbar > li > a
 {
   text-decoration: none;
-  text-shadow: 2px 2px 4px #000000;
-  color: #000;
+  font-weight: bold;
+  font-size: 25px;
+  color: #1C1C1C;
 }
 
 .navbar > li > a:hover
 {
-  color: grey;
+  color: #606060;
 }
