@@ -25,17 +25,6 @@ p {
   margin: 0;
 }
 
-iframe {
-/*  width: 500px; */
-/*  height: 285px;*/
-
-}
-
-img {
-  width: 500px;
-  height: 285px;
-}
-
 body {
   margin: 0;
   font-family: "Helvetica", "Arial", sans-serif;
@@ -49,26 +38,43 @@ p
 }
 
 .box {
-  margin-left: 100px;
-  margin-right: 100px;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 50px;
   padding: 10px 30px 30px 30px;
   background-color: #F6F5F5;
 }
 
-/* Create two columns that float next to eachother */
-.column {
-  width: 50%;
-  float: left;
-  margin-top: 6px;
+.boxheader
+{
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
-/* Clear floats after the columns */
-/* Without this, the box breaks */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.boximage
+{
+   position: relative;
+   padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.boximage img
+{
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+
+
+}
+
+.boxtext
+{
+   grid-column: 2;
+   grid-row: 2 / 3;
 }
 
 .navbar {
