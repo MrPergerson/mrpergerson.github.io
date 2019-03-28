@@ -62,12 +62,14 @@ p
 {
    position: relative;
    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+   grid-column: 1;
 }
 
 .boximage.aspect54
 {
    position: relative;
    padding-bottom: 80%; /* 4:3` Aspect Ratio */
+   grid-column: 1;
 }
 
 .boximage img
