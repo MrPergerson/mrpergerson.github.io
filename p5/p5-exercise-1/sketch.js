@@ -16,16 +16,11 @@ function setup()
   createCanvas(500, 200);
   background(220,0,120);
   console.log("Hello..")
-
-  osc = new p5.Oscillator('square');
-  osc.start();
-
 }
 
 function draw()
 {
   background(150,50,255,50);
-  osc.freq(carX);
 
   //Start buttom
   rect(10, height - 40, 50, 30);
