@@ -40,10 +40,10 @@ p
 .box {
   border-radius: 5px;
   display: grid;
-  grid-template-columns: 40% 40%;
-  grid-column-gap: 20px;
+  grid-template-columns: 40% 50%;
+  grid-column-gap: 60px;
   grid-row-gap: 10px;
-  width: 70%;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
@@ -68,6 +68,7 @@ p
 .boximage.aspect54
 {
    position: relative;
+   width: 100%;
    padding-bottom: 80%; /* 4:3` Aspect Ratio */
    grid-column: 1;
 }
