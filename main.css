@@ -52,6 +52,11 @@ p
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.box.nogrid
+{
+  display: block;
+}
+
 .boxheader
 {
   grid-column-start: 1;
@@ -85,7 +90,7 @@ p
 .boxtext
 {
    grid-column: 2;
-   grid-row: 2 / 3;
+   grid-row: 2 / 4;
 }
 
 .navbar {
