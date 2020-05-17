@@ -8,7 +8,7 @@ body {
 
 p
 {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.8;
     /*font-family: 'IBM Plex Serif', serif;*/
 }
@@ -25,7 +25,7 @@ p
 .infopage
 {
     margin-top: 5vw;
-    width: 75%;
+    width: 60%;
     padding-left: 0;
     padding-right: 0;
     background-color: white;
