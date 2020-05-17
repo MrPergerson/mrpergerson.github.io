@@ -1,0 +1,50 @@
+body {
+    background-image: url('../images/index_cover5.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+p
+{
+    font-size: 20px;
+    line-height: 1.8;
+    /*font-family: 'IBM Plex Serif', serif;*/
+}
+
+
+/*
+.workcard
+{
+    font-family: 'Open Sans', sans-serif;
+}
+*/
+
+
+.infopage
+{
+    margin-top: 5vw;
+    width: 75%;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: white;
+}
+
+.pageheader 
+{
+    color: white;
+    background-color: darkslategray;
+}
+
+.slideshow
+{
+    background-color: black;
+}
+
+.workinfo
+{
+    color: white;
+    background-color: darkslategray;
+}
+}
