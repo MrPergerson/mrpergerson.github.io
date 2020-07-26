@@ -84,10 +84,6 @@ body
     background-attachment: fixed;
 }
 
-.buffer
-{
-    height: 70vh;
-}
 
 #main
 {
@@ -96,6 +92,8 @@ body
     background-color: white;
 }
 
+/* container */
+
 .block .container
 {
     margin-left: auto;
@@ -103,13 +101,19 @@ body
     width: 60vw;
     padding-top: 10px;
     padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
 }
 
 .container .paragraph
 {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 70%;  
+}
+
+.short
+{
+    max-width: 40vw;
 }
 
 /* grids */
@@ -180,7 +184,7 @@ div img
     padding-bottom: 20px;
 }
 
-.header h1
+.header h1,h2
 {
     margin: 2px;
 }
@@ -204,8 +208,37 @@ p
     margin: 0px;
 }
 
+/* buffers */
+
+.buffer-70
+{
+    height: 70vh;
+}
+
+.buffer-50
+{
+    height: 50vh;
+}
+
+.buffer-30
+{
+    height: 30vh;
+}
+
+.buffer-10
+{
+    height: 10vh;
+}
+.buffer-5
+{
+    height: 5vh;
+}
+
+
 /* misc */
 .centered
 {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
