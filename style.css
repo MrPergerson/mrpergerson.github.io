@@ -1,0 +1,211 @@
+/*
+    font-family: 'Cousine', monospace;
+
+    font-family: 'Didact Gothic', sans-serif;
+
+    font-family: 'Libre Barcode 128 Text', cursive;
+
+    font-family: 'Libre Barcode 39', cursive;
+
+    font-family: 'Play', sans-serif;
+
+    font-family: 'Rajdhani', sans-serif;
+
+*/
+
+
+body
+{
+    margin: 0px;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+}
+
+header .block
+{
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #00B4FF;
+}
+
+header .block h2
+{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Play', sans-serif;
+    
+}
+
+header .left
+{
+    float: left;
+
+}
+
+header .right
+{
+    float: right;
+}
+
+/* footer */
+
+footer
+{
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+}
+
+/* borders */
+
+.border img
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* body */
+
+body 
+{
+    background-image: url(images/index_cover4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.buffer
+{
+    height: 70vh;
+}
+
+#main
+{
+    margin: 0px;
+    width: 100vw;
+    background-color: white;
+}
+
+.block .container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.container .paragraph
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* grids */
+
+.flex-container
+{
+    justify-content: center;
+    display: flex;
+}
+
+.flex-container div
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+div img
+{
+    width: 100%;
+    height: auto;
+}
+
+.flex-container div h5
+{
+    margin-bottom: 2px;
+    margin-top: 2px;
+    text-align: center;
+    font-family: 'Play', sans-serif
+}
+
+.flex-container div h3
+{
+    text-align: center;
+    font-family: 'Play', sans-serif
+}
+
+.flex-container div ul
+{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: large;
+}
+
+/*buttons*/
+
+.button-square
+{
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/* Color */
+
+.black
+{
+    background-color: #161616
+}
+.grey
+{
+    background-color: #f8f8f8;
+}
+
+/* Text */
+
+.header
+{
+    font-family: 'Play', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.header h1
+{
+    margin: 2px;
+}
+
+.subtitle
+{
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 2px;
+}
+
+.paragraph
+{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: large;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+p
+{
+    margin: 0px;
+}
+
+/* misc */
+.centered
+{
+    text-align: center;
+}
