@@ -131,9 +131,14 @@ body
     margin-right: 5px;
 }
 
-div img
+.flex-container div img
 {
     width: 250px;
+}
+
+div img
+{
+    width: 100%;
     height: auto;
 }
 
@@ -165,7 +170,7 @@ div img
     border-radius: 20px;
 }
 
-.button-square > img
+.flex-container .button-square img
 {
     width: 100%;
 }
