@@ -1,4 +1,4 @@
-const url = '../files/Resume_2020.pdf';
+const url = '../files/webdev_resume.pdf';
 
 // Loaded via <script> tag, create shortcut to access PDF.js exports.
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
