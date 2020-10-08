@@ -106,6 +106,23 @@ body
     border-radius: 20px;
 }
 
+.block .container-grid
+{
+    display: grid;
+    grid-gap: 50px;
+
+    
+
+    margin-left: auto;
+    margin-right: auto;;
+    width: 80vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+}
+
 .container .paragraph
 {
     width: 70%;  
@@ -125,7 +142,26 @@ body
     margin-right: auto;
 }
 
-/* grids */
+/* css grid */
+
+.grid-panel
+{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row: 1 / 4;
+}
+
+.grid-panel h1{
+    margin-top: 0px;
+}
+
+.grid-body
+{
+    grid-column-start: 2;
+    grid-row: 1 / 4;
+}
+
+/* flex grids */
 
 .flex-container
 {
