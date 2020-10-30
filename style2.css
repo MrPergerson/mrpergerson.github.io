@@ -1,0 +1,198 @@
+header, footer
+{
+    font-family: 'Play', sans-serif;
+}
+
+header > div, footer > div
+{
+    position: fixed;
+}
+
+header > div
+{   
+    top: 0px;
+}
+
+footer > div
+{
+    bottom: 0px;
+}
+
+header div a, footer div a
+{
+    text-decoration-line: none;
+}
+
+header h2
+{
+    margin: 5vh 2vw;
+}
+
+header > .submenu
+{
+    top: 120px;
+}
+
+footer h2
+{
+    margin: 5vh 2vw;
+}
+
+.nav
+{
+    margin-bottom: 5vh;
+}
+
+.nav > a > h3, h4
+{
+    display: inline;
+    margin-right: 5vw;
+    color: white;
+}
+
+body
+{
+    background-image: url(images/index_cover4_blur.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding-top: 5vh;
+}
+
+.bng2
+{
+    background-image: url(images/index_cover4.png);
+}
+
+.container
+{
+    margin-left: 25vw;
+    margin-right: 20vw;
+    min-width: 50vw;
+}
+
+.flex-container
+{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-left: 25vw;
+    margin-right: 20vw;
+    min-width: 65vw;
+}
+
+.flex-container div
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.flex-container div img
+{
+    width: 250px;
+}
+
+div img
+{
+    width: 100%;
+    height: auto;
+}
+
+.flex-container div h5
+{
+    margin-bottom: 2px;
+    margin-top: 2px;
+    text-align: center;
+    font-family: 'Play', sans-serif
+}
+
+.flex-container div h3
+{
+    text-align: center;
+    font-family: 'Play', sans-serif
+}
+
+.flex-container div ul
+{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: large;
+}
+
+/*buttons*/
+
+.button-square
+{
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.flex-container .button-square img
+{
+    width: 100%;
+}
+
+
+/* Text */
+
+.subtitle
+{
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 2px;
+}
+
+p
+{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: large;
+    line-height: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+h1,h2, h3
+{
+    font-family: 'Play', sans-serif;
+    margin-top: 0px;
+    color: white;
+}
+
+.short
+{
+    max-width: 40vw;
+}
+
+.left
+{
+    float: left;
+    left: 0px;
+
+}
+
+.right
+{
+    float: right;
+    right: 0px;
+    text-align: right;
+}
+ 
+
+ 
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 900px)
+ {
+     
+    header > div, footer > div
+    {
+        margin: 10px;
+        padding: 0px;
+    }
+
+    .container
+    {
+        width: 80vw;
+    }
+
+ }
+

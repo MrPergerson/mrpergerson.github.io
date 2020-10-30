@@ -27,33 +27,43 @@ header {
     position: fixed;
 }
 
-header .block
+footer {
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+    bottom: 0;
+}
+
+header .block, footer .block
 {
     margin: 20px;
     padding: 10px;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 0px 0px 20px #00B4FF;
-}
-
-header .block h2
-{
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-family: 'Play', sans-serif;
     
 }
 
-header .left
+header h2, footer h2
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Play', sans-serif;
+    color: white;
+}
+
+header .block a, footer .block a
+{
+    text-decoration-line: none;
+}
+
+header .left, footer .left
 {
     float: left;
 
 }
 
-header .right
+header .right, footer .right
 {
     float: right;
+    text-align: right;
 }
 
 /* footer */
@@ -87,8 +97,7 @@ body
 
 #main
 {
-    margin: 0px;
-    width: 100vw;
+    padding: 10vw 0px 0px 0px;
     background-color: white;
 }
 
@@ -248,6 +257,11 @@ div img
 .grey
 {
     background-color: #f8f8f8;
+}
+
+.blacktext
+{
+    color: black;
 }
 
 /* Text */
