@@ -1,3 +1,5 @@
+/* header and footer */
+
 header, footer
 {
     font-family: 'Play', sans-serif;
@@ -50,14 +52,19 @@ footer h2
     color: white;
 }
 
+/* body elements */
+
 body
-{
-    background-image: url(images/index_cover4_blur.png);
+{   
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0px;
-    padding-top: 5vh;
+}
+
+.bng1
+{
+    background-image: url(images/index_cover4_blur.png);
 }
 
 .bng2
@@ -65,42 +72,33 @@ body
     background-image: url(images/index_cover4.png);
 }
 
-.container
+.bng3
 {
-    margin-left: 25vw;
-    margin-right: 20vw;
-    min-width: 50vw;
+    background-color: #131313;
+}
+
+.main
+{
+    width: 50vw;
+    margin: 10vh auto 0 auto;
 }
 
 .flex-container
 {
     display: flex;
     flex-wrap: wrap;
-
-    margin-left: 25vw;
-    margin-right: 20vw;
-    min-width: 65vw;
 }
 
 .flex-container div
 {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 5wv;
 }
 
 .flex-container div img
 {
-    width: 250px;
-}
-
-div img
-{
-    width: 80%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5vh;
+    width: 100%;
 }
 
 .flex-container div h5
@@ -115,6 +113,7 @@ div img
 {
     text-align: center;
     font-family: 'Play', sans-serif
+    
 }
 
 .flex-container div ul
@@ -136,6 +135,12 @@ div img
     width: 100%;
 }
 
+/* links and navigation */
+
+a {
+    color: rgb(0, 68, 255);
+}
+
 
 /* Text */
 
@@ -151,7 +156,7 @@ p
     font-size: large;
     line-height: 25px;
     margin-top: 0px;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
     color: white;
 }
 
