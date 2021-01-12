@@ -42,7 +42,7 @@ footer h2
 
 .nav
 {
-    margin-bottom: 5vh;
+    margin-bottom: 1vh;
 }
 
 .nav > a > h3, h4
@@ -120,6 +120,12 @@ body
 {
     font-family: 'Didact Gothic', sans-serif;
     font-size: large;
+}
+
+hr{
+    width: 100%;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
 }
 
 /*buttons*/
