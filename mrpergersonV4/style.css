@@ -1,25 +1,18 @@
-body {
-  margin: 0;
+body
+{
+  background-image: url("assets/images/main/20201121221420_1.jpg");
+  background-position: 50% 10%;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 5% 50% auto 5%;
+.container {
     width: auto;
-    
-    height: 100vh;
     margin-left: auto;
     margin-right: auto;
 }
 
-.grid-header {
-  background-color: rgb(206, 206, 206);
-}
-
 ul {
   list-style-type: none;
-  margin: 10px 20px;
+  margin: 0px 20px;
   padding: 0;
   font-size: 1.3em;
 }
@@ -38,14 +31,12 @@ li a {
   float: right;
 }
 
-.grid-main {
+.main-header {
   background-color: rgb(19, 19, 19);
+  color: white;
 }
 
-.grid-work {
-  background-image: url("assets/images/main/20201121221420_1.jpg");
-  background-position: 50% 10%;
-}
+
 
 .grid-footer {
   background-color: rgb(19, 19, 19);
@@ -67,47 +58,56 @@ li a {
   box-sizing: border-box;
 }
 
-.main-grid-name1 {
+.header-name1 {
   grid-column: 1 / span 1;
   grid-row: 1 / span 4;
   font-size: 5em;
 }
 
-.main-grid-name2 {
+.header-name2 {
   grid-column: 2 / span 1;
   grid-row: 1 / span 4;
   font-size: 2em;
 }
 
-.main-grid-name2 > h3 {
+.header-name2 > h3 {
   transform: rotate(90deg);
 }
 
-.main-grid-traits {
+.header-traits {
   grid-column: 1 / span 2;
   font-size: 2em;
   color: rgb(206, 206, 206);
 }
 
-.work-grid-container {
+.work-grid {
   display: grid;
-  grid-template-columns: 30% 30% 30%;
-  grid-column-gap: 50px;
-  width: 80%;
-  padding: 20px;
-  margin: auto;
+  grid-template-columns: repeat(3, 25vw);
+  grid-template-rows: 20vh;
+  grid-column-gap: 40px;
+  justify-content: center;
+
+  margin: 20px 0px;
 }
 
-.work-grid-item {
+.work-item {
   border-style: solid;
   border-color: white;
   border-radius: 2px;
-  padding: 50px 10px;
-  color: white;
-  margin-top: 20%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.work-grid-item > h2 {
+.work-item a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.work-item h2 {
   text-align: center;
 }
 
