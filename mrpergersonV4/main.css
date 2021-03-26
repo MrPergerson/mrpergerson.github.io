@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&display=swap');
+
+html
+{
+  font-family: 'Abhaya Libre', serif;
+}
+
 header {
     position: sticky;
     background-color: rgb(206, 206, 206);
     top: 0;
     z-index: 2;
+    
+  }
+
+  .header{
+    padding: 8px;
   }
   
   
@@ -37,8 +49,23 @@ header {
   body {
     margin: 0;
     height: 100vh;
+    
   }
-  
+
+  .returnbutton
+  { 
+    position: absolute;
+    top: -60px;
+    border: 2px solid rgb(231, 231, 231);
+    padding: .5em;
+    text-decoration: none;
+    color: rgb(231, 231, 231);
+  }
+
+  .returnbutton:hover {
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+  }
   
   footer {
   background-color: rgb(19, 19, 19);
