@@ -14,7 +14,7 @@ body {
   position: relative;
   width: 80%;
   max-width: 900px;
-  margin-top: 8vh;
+  margin-top: 80px;
   margin-bottom: 10vh;
   margin-left: auto;
   margin-right: auto;
@@ -68,6 +68,7 @@ body {
   width: 100%;
   padding-top: 43%; /* 2.35:1 Aspect Ratio */
   background-position: center; 
+  background-size:cover;
   position:relative;
 
 }

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../main.css">
+    <link rel="stylesheet" href="work-article.css">
+    <title>MR.PERGERSON</title>
+</head>
+<header>
+    <div class="header">
+        <ul>
+            <li><a href="../../index.html">COLE PERGERSON</a></li>
+            <li><a class="right" href=".../about.html">ABOUT</a></li>
+        </ul> 
+    </div>
+    <div class="subheader">
+        <h2>GAME DESIGN</h2>
+    </div>
+</header>
+<body>
+    
+    <div class="page">
+        <a class="returnbutton"href="../gamedev.html"><h3>RETURN</h3></a>
+        <div id="page-header"><h1>HEART COLLECTOR</h1></div>
+        <div id="page-hero-image" style="background-image: url(../../assets/images/main/work/heartcollector4.png)"></div>
+        <div id="page-hero-image-break"></div>
+        <div class="page-description">
+            <h1>DESCRIPTION</h1>
+            <div>
+                <p>
+                    You play as an internet avatar addicted to hearts. Keep collecting them to keep your sense of fulfillment! This game was inspired by "Connection," the College Game Jam 2021 theme, and my own past experience with using social media.
+                    There are 7 levels and two final scenes which amounts to about 12 minutes of gameplay.
+                </p>
+
+            </div>
+        </div>
+        <div id="page-image-gallery">
+            <div class="gallery-image">
+                <a target="_blank" href="../../assets/images/main/work/heartcollector2.png">
+                    <img src="../../assets/images/main/work/heartcollector2.png" alt="Cover Image">
+                </a>
+            </div>
+            <div class="gallery-image">
+                <a target="_blank" href="../../assets/images/main/work/heartcollector3.png">
+                    <img src="../../assets/images/main/work/heartcollector3.png" alt="Gameplay screenshot">
+                </a>
+            </div>
+            
+        </div>     
+        <div class="page-description">
+            <h1>DESIGN</h1>
+            <div>
+                <h3 id="level-design">LEVEL DESIGN</h3>
+                <p>Upon learning more about flow theory, I decided to experiment with the concepts in this game. There are a total of 7 levels with 3 climaxes. My process was to introduce a new obstacle and in the following level, up the intensity of that obstacle.</p>
+                <p>Level 2 and 3 introduce the most basic obstacles, the block obstacle. These obstacles simply move in one direction for a certain distance. Block obstacles only test on the player’s pathfinding ability and does not require any kind strategy to overcome. They are not too difficult, and warm up the player for more challenging levels. In the level 2, the intensity level is low to just introduce the block obstacle. I give the player their first real challenge in level 3 by increasing the spawn rate of the block obstacles. </p>
+                <p>Level 4 and 5 force the player to move and use quick reflexes and I achieve this with the chase obstacles. These obstacles follow the player, which means, the player must constantly be on move. In level 5, I added more chase obstacles to create the second climax. To make this climax more difficult than level 3, I layered the chase obstacles with the block obstacles. This is the first time the player must deal will multiple obstacles at once. </p>
+                <p>Level 6 and 7 confine the players ability to freely move around the map. The shooting obstacle, the last enemy introduced, shoots orbs in four cardinal direction. Consequently, the map is split into four sections. The obstacle rotates to keep the player moving. Level 7 layers all the obstacles together to create the most interesting situation. </p>
+                <h3 id="obstacle-design">OBSTACLE DESIGN</h3>
+                <p>Block Obstacles: These simply move in on direction for a certain distance.</p>
+                <p>Chase obstacles: Chase the player’s position at a fast speed, but they have a limited lifespan. Once that lifespan is reached, they fly off the level, respawn, and then resume chasing the player.  </p>
+                <p>Shooting Obstacle: Shoots orbs in four directions. This obstacle is stationary but rotates as it shoots. </p>
+
+            </div>
+        </div>
+        <div class="link-block">
+            <div id="play-button" class="link-button">
+                <h2>PLAY</h2>
+                <div>
+                    <a target="blank" href="https://mr-pergerson.itch.io/heartcollector">
+                        <p>
+                            Click to play
+                        </p>
+                        <img src="../../assets/images/main/logo/itch.png" alt="Itch.io logo" width="100px" height="100px">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+<footer>
+    <p>CONTACT</p>
+</footer>
+</html>
