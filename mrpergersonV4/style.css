@@ -72,11 +72,6 @@ li a {
   justify-content: center;
   align-items: center;
   padding: 2vh 0;
-
-}
-
-.work-item a {
-  display: block;
   color: black;
   text-decoration: none;
 }
