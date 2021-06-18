@@ -7,16 +7,23 @@ html
 
 header {
     position: sticky;
-    background-color: rgb(206, 206, 206);
+    /* background-color: rgb(206, 206, 206); */
+    background-color: black;
+    
     top: 0;
     z-index: 2;
     
   }
 
   .header{
-    padding: 8px;
+    padding: 10px 8px 6px 8px;
+    
   }
-  
+/*
+  .header ul li a {
+    color:white;
+  }
+  */
   
   .subheader {
     background-color: rgb(19, 19, 19);
@@ -38,7 +45,9 @@ header {
   
   li a {
     text-decoration: none;
-    color: black;
+    /* color: black; */
+    color: white;
+    vertical-align: middle;
   }
   
   .right {
@@ -70,17 +79,23 @@ header {
   footer {
   background-color: rgb(19, 19, 19);
   color: white;
-  padding: 6px;
+  padding: 10px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   }
   
-  footer > p {
+  footer > a {
+  display: block;
   text-align: center;
   margin: 0;
-  
+  color: white;
+  text-decoration: none;
+ }
+
+  footer > a > p {
+    margin: 0;
   }
   
   h1, h2, h3

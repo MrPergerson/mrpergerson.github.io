@@ -1,7 +1,11 @@
 body
 {
+  /* Image
   background-image: url("assets/images/main/kalen-emsley-eHpYD4U5830-unsplash.jpg");
   background-position: 50% 70%;
+  */
+  background-image: url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  background-position: 50% -5%;
 }
 
 .container {
@@ -20,7 +24,6 @@ ul {
 li {
   display: inline;
 }
-
 
 li a {
   text-decoration: none;
@@ -60,7 +63,7 @@ li a {
 
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(3, 25vw);
+  grid-template-columns: repeat(4, 20vw);
   grid-template-rows: auto;
   grid-column-gap: 40px;
   justify-content: center;
