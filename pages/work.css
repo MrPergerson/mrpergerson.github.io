@@ -20,8 +20,31 @@ body {
   margin-right: auto;
 }
 
-.page-header {
+
+.row1 {
   grid-area: 1 / span 3;
+}
+.row2 {
+  grid-area: 2 / span 3;
+}
+.row3 {
+  grid-area: 3 / span 1;
+}
+.row4 {
+  grid-area: 4 / span 3;
+}
+.row5 {
+  grid-area: 5 / span 1;
+}
+.row6 {
+  grid-area: 6 / span 3;
+}
+.row7 {
+  grid-area: 6 / span 1;
+}
+
+
+.page-header {
   background-color: rgb(231, 231, 231);
   color: black;
   padding: 20px 40px;
@@ -38,7 +61,6 @@ body {
 }
 
 .page-work-display{
-  grid-area: 2 / span 1;
   background-color: rgb(19, 19, 19);
   text-decoration: none;
   
