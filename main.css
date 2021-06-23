@@ -102,3 +102,7 @@ header {
   {
     margin: 0;
   }
+
+  .margin80 {
+    margin-top: 80px;
+  }
