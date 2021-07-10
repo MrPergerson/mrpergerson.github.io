@@ -36,7 +36,7 @@
 
 .page-description
 {
-    padding: 50px 50px;
+    padding: 20px 50px;
 }
 
 .page-description h1 {
@@ -49,7 +49,11 @@
 }
 
 .page-description div {
-    font-size: 1em;   
+    font-size: 1.1em;   
+}
+
+.page-description div ul {
+    font-size: 1.1em;   
 }
 
 #page-image-gallery {

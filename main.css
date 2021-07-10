@@ -32,18 +32,18 @@ header {
     text-align: center;
   }
   
-  ul {
+  header ul {
     list-style-type: none;
     margin: 0px 20px;
     padding: 0;
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
   
-  li {
+  header li {
     display: inline;
   }
   
-  li a {
+  header li a {
     text-decoration: none;
     /* color: black; */
     color: white;
