@@ -61,6 +61,10 @@ li a {
   color: rgb(206, 206, 206);
 }
 
+.header-traits h5 {
+  margin: 0px 0px;
+}
+
 .work-grid {
   display: grid;
   grid-template-columns: repeat(4, 20vw);
