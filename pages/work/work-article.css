@@ -49,12 +49,9 @@
 }
 
 .page-description div {
-    font-size: 1.1em;   
+    font-size: 1em;   
 }
 
-.page-description div ul {
-    font-size: 1.1em;   
-}
 
 #page-image-gallery {
     display: grid;
