@@ -51,6 +51,16 @@ header {
     color: white;
     vertical-align: middle;
   }
+
+  header p {
+    margin: 0px;
+    display: inline;
+    font-family: 'Abhaya Libre', serif;
+  }
+
+  footer p {
+    font-family: 'Abhaya Libre', serif;
+  }
   
   .right {
       float: right;
