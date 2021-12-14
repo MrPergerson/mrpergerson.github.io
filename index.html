@@ -1,47 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="global_style.css" />
+    <link rel="stylesheet" href="index_style.css" />
     <title>Mr. Pergerson</title>
-</head>
-<header>
-    <!--
+  </head>
+  <style>
+    #image1 {
+      background-image: url('site_images/gamedesign.png');
+    }
+    #image2 {
+      background-image: url('site_images/webdev.png');
+    }
+    #image3 {
+      background-image: url('site_images/projmt.jpg');
+    }
+    #image4 {
+      background-image: url('site_images/cole.PNG');
+    }
 
-        <ul>
-            <li><a href="index.html">COLE PERGERSON</a></li>
-            <li><a class="right" href="pages/about.html">ABOUT</a></li>
-        </ul> 
-    -->
-    </header>
-<body style="padding-top: 0px;">
-    <div class="container">
-        <div class="main-header">
-            <div class="header-name1"><h1>(MR.) COLE<br>P E R G E R S O N</h1></div>
-            <!-- <div class="header-name2"><h3>COLE PERGERSON</h3></div> -->
-            <div class="header-traits"><h5>Seeking Production or Product Management Intership</h5></div>
+</style>
+  <header>
+    <a href="index.html">MR. PERGERSON</a>
+    <div class="header-right">
+      <a href="pages/gamedesign.html">GAME DESIGN</a>
+      <a href="pages/webdev.html">WEB DEVELOPMENT</a>
+      <a href="pages/projmang.html">PROJECT MANAGEMENT</a>
+    </div>
+</header>
+  <body>
+    <div id="dir">
+      <div id="dir-center">
+        <p class="dir--text">
+          Cole Pergerson is a game designer creating interactive narratives. He
+          has experience in programming and project management.
+        </p>
+        <div class="dir--flex">
+          <div class="dir--flex--item">    
+            <a href="pages/gamedesign.html"><div id="image1" class="dir--flex--item--image"></div></a>
+            <div class="dir--flex--item--image--text">GAME DESIGN</div>
+          </div>
+          <div class="dir--flex--item">
+            <a href="pages/webdev.html"><div id="image2" class="dir--flex--item--image"></div></a>
+            <div class="dir--flex--item--image--text">WEB DEVELOPMENT</div>
+          </div>
+          <div class="dir--flex--item">
+            <a href="pages/projmang.html"><div id="image3" class="dir--flex--item--image"></div></a>
+            <div class="dir--flex--item--image--text">PROJECT MANAGEMENT</div>
+          </div>
         </div>
-        <div class="work-grid">
-            <a class="work-item" href="pages/productmanagement.html">
-                <h2>MANAGING</h2>
-            </a>
-            <a class="work-item" href="pages/gamedev.html">
-                <h2>GAME DESIGN</h2>
-            </a>
-            <a class="work-item" href="pages/webdev.html">
-                <h2>WEB DESIGN</h2>
-            </a>
-            <a class="work-item" href="pages/about.html">
-                <h2>ABOUT</h2>
-            </a>
+      </div>
+    </div>
+    <div id="about">
+      <div class="about--name">
+        <div class="block-container">
+          <h1 class="about--name--text">COLE PERGERSON</h1>
         </div>
-
-      </div> 
-</body>
-<footer>
-    <a href="https://www.linkedin.com/in/colepergerson/" target="_blank"><p>CONTACT</p></a>
-</footer>
+      </div>
+      <div class="about--text-section">
+        <div class="block-container">
+          <div class="about--text-section--flex">
+            <div class="about--text-section--image-container">
+              <div id="image4" class="about--text-section--image"></div>
+            </div>
+            <div class="about--text-section--text">
+              <p>
+                Cole Pergerson is a video game designer who creates interactive
+                fiction in virtual worlds. Many of his games are short and fun
+                experiences but his more recent work has become conceptually
+                deeper and presents questions relevant to modern life. He is
+                interested in exploring questions around labor and authenticity.
+                All his games can be found on his Itch.io page. Cole will graduate with a BFA degree in Digital Media
+                Art at San José State University in Fall 2021.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
