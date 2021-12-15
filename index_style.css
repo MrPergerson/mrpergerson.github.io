@@ -1,13 +1,13 @@
-#dir {
+.dir {
     height: 100vh;
     width: 100%;
 }
 
-#dir-center {
+.dir-center {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -50%);
 }
 
 .dir--text {
@@ -41,6 +41,30 @@
     font-size: 1.1em;
 }
 
+.dir-list 
+{
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+.dir-list h1 {
+    margin: 1em 0;
+}
+
+
+.dir-list h1 a
+{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.dir-list h1 a:hover {
+    color: grey;
+}
+
 #about {
     height: 100vh;
     width: 100%;
@@ -48,7 +72,7 @@
 
 .about--name {
     height: 35%;
-    background-color: #E9E9E9;
+    background-color: #F4F4F4;
     position: relative;
 }
 
@@ -89,3 +113,62 @@
     margin: 0;
     font-size: 1.2em;
 }
+
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    .dir-center {
+        margin-top: 80px;
+        display: block;
+        left: 0;
+        top: 0;
+        transform: translate(0, 0);
+    }
+    .dir-list {
+        font-size: 1em;
+    }
+
+    .about--text-section--flex {
+        flex-direction: column;
+    }
+
+    .about--text-section--image-container 
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .about--text-section--image
+    {
+        background-color: rgb(36, 36, 36);
+        width: 100%;
+        padding-top: 56%;
+    }
+
+    .about--text-section--text
+    {
+        width: 100%;
+        padding-left: 0px;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 800px) {
+
+
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+
+ } 
