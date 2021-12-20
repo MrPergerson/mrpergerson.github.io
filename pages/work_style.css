@@ -11,10 +11,13 @@
     padding: 40px 0 0 0;
 }
 
+.text-block {
+    margin: 20px 0;
+}
+
 .gallery-flex{
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
 }
 
 .gallery-flex--item
@@ -24,10 +27,15 @@
     
 }
 
+.gallery-header {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 .image-display {
     background-color: rgb(24, 24, 24);
     width: 100%;
-    padding-top: 43%; /* 2.35:1 Aspect Ratio */
+    padding-top: 67%;
     background-position: center; 
     background-size:cover;
     position:relative;
