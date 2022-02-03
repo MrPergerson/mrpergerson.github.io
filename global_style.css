@@ -38,7 +38,7 @@ header a:hover {
 
 .block-container {
     margin: auto;
-
+    box-sizing: border-box;
 }
 
 h1, h3 {
@@ -59,9 +59,7 @@ footer {
     .header-right {
         display: none;
     }
-    .block-container {
-        padding: 0 20px;
-    }
+
 
     p {
         font-size: 1em;
@@ -81,8 +79,8 @@ footer {
     }
 
     .block-container {
-        width: 800px;
-        padding: 0 20px;
+        width: 900px;
+        padding: 0 1em;
     }
         
 
