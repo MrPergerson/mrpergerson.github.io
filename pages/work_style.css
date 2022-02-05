@@ -16,14 +16,16 @@
 }
 
 .gallery-flex{
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 12px;
+
 }
 
 .gallery-flex--item
 {
-    flex-basis: 100px;
-    flex-grow: .3;
+    width: 292px;
+
     
 }
 

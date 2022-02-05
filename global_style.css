@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
-html
-{
-  font-family: 'Abhaya Libre', serif;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 body
 {
     margin: 0px;
@@ -22,7 +18,7 @@ header {
 
 header a {
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 0px;
     text-decoration: none;
     float:left;
     color: black;
@@ -36,18 +32,41 @@ header a:hover {
     float: right;
 }
 
-.block-container {
-    margin: auto;
-    box-sizing: border-box;
+.header-right a {
+    padding-left: 16px;
 }
 
-h1, h3 {
-    margin: 0;
+.block-container {
+    margin: auto;
+   padding: 1em 1em;
+}
+
+.nopadding {
+   padding: 0;
+}
+
+
+h1
+{
+
+    /*font-family: 'DM Serif Display', serif;*/
+    line-height: 1em;
+}
+
+h1, h2 {
+    font-family: 'Abhaya Libre', serif;
+}
+
+h3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: normal;
 }
 
 p {
     font-size: 1em;
     line-height: 1.5em;
+    font-family: 'Nunito Sans', sans-serif;
+    
 }
 
 footer {
@@ -80,7 +99,7 @@ footer {
 
     .block-container {
         width: 900px;
-        padding: 0 1em;
+
     }
         
 
