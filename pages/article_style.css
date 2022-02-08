@@ -103,6 +103,8 @@
 .image-enlarged
 {
     position: relative;
+    padding-top: 56.25%;
+
 }
 
 .testHidden {
