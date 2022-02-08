@@ -41,6 +41,7 @@
     background-position: center; 
     background-size:cover;
     position:relative;
+    filter: brightness(.97);
   
 }
 
@@ -63,6 +64,8 @@
     text-align: center;
     text-decoration: none;
     color: white;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: bold;
   }
   
   .image-display:hover .hover-text {

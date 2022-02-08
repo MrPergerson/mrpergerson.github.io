@@ -22,6 +22,7 @@ header a {
     text-decoration: none;
     float:left;
     color: black;
+    text-transform: uppercase;
 }
 
 header a:hover {
@@ -33,7 +34,7 @@ header a:hover {
 }
 
 .header-right a {
-    padding-left: 16px;
+    padding-left: 2em;
 }
 
 .block-container {
