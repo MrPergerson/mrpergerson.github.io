@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Abhaya Libre', serif;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-weight: 800;
+    font-size: 12em;
+    text-transform: uppercase;
+
+}
+
+.center a {
+    color: black;
+    text-decoration: none;
+}
+
+.center a:hover {
+    color: rgb(49, 106, 230);
+    text-decoration: underline;
+}
+
+
